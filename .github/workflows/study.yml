@@ -1,7 +1,7 @@
 run-name: testcode
-on: push
+on: [push]
 jobs:
   a:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "TEST Action"
