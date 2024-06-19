@@ -34,5 +34,6 @@ jobs:
     - run: npm test
   complete-test:
     runs-on: ubuntu-latest
+    needs: express-build
     steps:
       - run: echo "🎉 Success All Actions"
